@@ -59,20 +59,21 @@ body {
 }
 
 h1 {
+	color: #A04F2E;
 	margin-bottom: 0.6875em;
 	font-size: 3em;
 }
 input {
 	border: 2px solid grey;
-	width: 243px;
+	width: 16em;
 }
 button {
 	margin-left: 1em;
 	border-radius: 2px;
 	border:none;
-	background-color: rgb(182, 15, 66);
+	background-color: rgb(113, 207, 60);
 	height: 21px;
-	color: rgb(242, 242, 242);
+	color: rgb(240, 240, 240);
 }
 button:hover, .checkbox:hover {
 	cursor:pointer;
@@ -86,26 +87,26 @@ ul {
 	padding: 1em;
 	margin: 3em auto;
 	border: 2px solid rgb(160, 151, 88);
-	width: 500px;
+	width: 31.25em;
 	background: white;
 	border-radius: 15px;
 }
 .checkbox {
-	height: 1em;
-	width: 1em;
+	height: 0.9em;
+	width: 0.9em;
 	float: left;
 	margin-right: 1em;
 }
 
 li.checked .checkbox{
-	background:url("../images/checkedbox.png") no-repeat left center;
+	background: url("../images/checkedbox.png") no-repeat center;
 }
 
 li.unchecked .checkbox{
-	background:url("../images/uncheckedbox.png") no-repeat left center;
+	background: url("../images/uncheckedbox.png") no-repeat;
 }
 li.unchecked .checkbox, li.checked .checkbox{
-	background-size: 1em;
+	background-size: 0.8em;
 }
 .list li.checked, .list li.unchecked {
 	margin:1.875em;
