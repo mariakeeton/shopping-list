@@ -1,5 +1,11 @@
 $(document).ready(function() {
 	//Check to see if an item is entered in textbox
+	add_item();
+	
+
+});
+
+function add_item() {
 	$('.add-item-btn').click(function() {
 	//If it isn't, alert user
 		if($('.item').val().trim().length == 0){
@@ -11,7 +17,16 @@ $(document).ready(function() {
 			$('.item').val("");
 			$('.error').hide();
 		}
-
+		check_item();
 	})
-
-});
+	
+}
+function check_item() {
+	$('.checkbox').mouseup(function() {
+		if($('.checkbox').parent().hasClass('unchecked')){
+			console.log('yes');
+		} else{
+			console.log('no');
+		}
+	})
+}
