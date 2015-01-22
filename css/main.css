@@ -115,7 +115,7 @@ li.checked .checkbox{
 }
 
 li.unchecked .checkbox{
-	background: url("../images/uncheckedbox.png") no-repeat;
+	background: url("../images/uncheckedbox.png") no-repeat center;
 }
 li.unchecked .checkbox, li.checked .checkbox{
 	background-size: 0.8em;
