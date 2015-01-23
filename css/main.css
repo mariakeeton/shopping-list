@@ -83,6 +83,9 @@ button {
 	height: 21px;
 	color: rgb(240, 240, 240);
 }
+li:hover {
+	cursor:default;
+}
 button:hover, .checkbox:hover {
 	cursor:pointer;
 }
@@ -122,4 +125,12 @@ li.unchecked .checkbox, li.checked .checkbox{
 }
 .list li.checked, .list li.unchecked {
 	margin:1.875em;
+}
+.remove-item-btn{
+	background: rgb(223, 74, 12);
+	vertical-align: middle;
+	padding: 0 2px;
+	font-size: 0.5em;
+	color: rgb(255, 255, 255);
+	height: 12px;
 }
