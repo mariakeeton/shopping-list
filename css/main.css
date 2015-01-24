@@ -126,6 +126,10 @@ li.unchecked .checkbox, li.checked .checkbox{
 .list li.checked, .list li.unchecked {
 	margin:1.875em;
 }
+
+.list li.checked{
+	text-decoration:line-through; 
+}
 .remove-item-btn{
 	background: rgb(223, 74, 12);
 	vertical-align: middle;
