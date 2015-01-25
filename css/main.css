@@ -80,7 +80,7 @@ button {
 	border-radius: 2px;
 	border:none;
 	background-color: rgb(113, 207, 60);
-	height: 21px;
+	height: 1.8em;
 	color: rgb(240, 240, 240);
 }
 li:hover {
@@ -134,18 +134,18 @@ li.unchecked .checkbox, li.checked .checkbox{
 .remove-item-btn{
 	background: rgb(223, 74, 12);
 	vertical-align: middle;
-	padding: 0 2px;
+	padding: 0 0.18em;
 	font-size: 0.5em;
 	color: rgb(255, 255, 255);
-	height: 12px;
+	height: 1.1em;
 }
 .del-checked-items-btn {
 	display: block;
 	position: relative;
-	left: 84px;
-	top: 14px;
-	padding: 0 2px;
+	left: 7em;
+	top: 1.17em;
+	padding: 0 0.17em;
 	font-size: 0.75em;
-	height: 18px;
+	height: 1.5em;
 	background-color: #DFDFDF;
 }

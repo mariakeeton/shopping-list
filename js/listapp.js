@@ -13,8 +13,8 @@ $(document).ready(function() {
 	//Check or uncheck item
 	$('ul.list').on('click', '.checkbox', function() {
 		$(this).parent().toggleClass('unchecked checked');
-		if ($(this).parent().hasClass('checked')) {
-			$('.del-checked-items-btn').css('background-color', 'red');
+		if ($('ul.list').children().hasClass('checked')) {
+			$('.del-checked-items-btn').css('background-color', 'rgb(223, 74, 12)');
 			} else{
 				$('.del-checked-items-btn').css('background-color', '#DFDFDF');
 			};
