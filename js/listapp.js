@@ -28,8 +28,13 @@ $(document).ready(function() {
 	})
 	$('ul.list').on('click', '.remove-item-btn', function() {
 		$(this).parent().remove();
+		if($('ul.list').children().length==0 || !$('ul.list').children().hasClass('checked')){
+			$('.del-checked-items-btn').css('background-color', '#DFDFDF');
+		}
+			console.log($('ul.list').children().length);
+		
 	})
-	//Delete Checked Items
+	//Delete All Checked Items
 	$('.del-checked-items-btn').click(function() {
 		$('.del-checked-items-btn').css('background-color', '#DFDFDF');
 		$('li.checked').remove();
