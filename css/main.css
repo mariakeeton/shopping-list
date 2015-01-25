@@ -91,7 +91,7 @@ button:hover, .checkbox:hover {
 }
 
 .error {
-	margin: 0.438em auto -0.69em;
+	margin: 0.31em auto -0.69em;
 	text-align: left;
 	font-family: "Arial", sans-serif;
 	font-size: 0.75em;
@@ -130,6 +130,7 @@ li.unchecked .checkbox, li.checked .checkbox{
 .list li.checked{
 	text-decoration:line-through; 
 }
+
 .remove-item-btn{
 	background: rgb(223, 74, 12);
 	vertical-align: middle;
@@ -137,4 +138,14 @@ li.unchecked .checkbox, li.checked .checkbox{
 	font-size: 0.5em;
 	color: rgb(255, 255, 255);
 	height: 12px;
+}
+.del-checked-items-btn {
+	display: block;
+	position: relative;
+	left: 84px;
+	top: 14px;
+	padding: 0 2px;
+	font-size: 0.75em;
+	height: 18px;
+	background-color: #DFDFDF;
 }
