@@ -20,12 +20,15 @@ $(document).ready(function() {
 			};
 	})
 	//Delete Item from list
+	//Add Delete Button
 	$('ul.list').on('mouseenter', 'li', function() {
 		$(this).append('<button class="remove-item-btn">Delete</button>');
 	})
+	//Remove Delete Button
 	$('ul.list').on('mouseleave', 'li', function() {
 		$('.remove-item-btn').remove();
 	})
+	//Remove list item and change color of "Deleted All Checked Items" Button
 	$('ul.list').on('click', '.remove-item-btn', function() {
 		$(this).parent().remove();
 		if($('ul.list').children().length==0 || !$('ul.list').children().hasClass('checked')){
